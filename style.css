@@ -12,6 +12,9 @@
 body {
     background-color: #33475B;
     font-family: 'IBM Plex Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 /* Header --------- */
@@ -53,4 +56,18 @@ header {
 
 ::placeholder {
     color: #FF97D3;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 66.67%;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.trilhas{
+    background-color: white;
+    border-radius: 4px;
+    width: 31%;
 }
